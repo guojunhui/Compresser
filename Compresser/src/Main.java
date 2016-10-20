@@ -13,6 +13,7 @@ public class Main {
         File root = new File("D:\\workspace\\RiskDevSrc\\marketMakerProject\\src\\main\\webapp\\WEB-INF\\views\\pages");
         loopAllFiles(root);
     }
+    
 
     static void loopAllFiles(File dir) throws IOException {
         File[] files = dir.listFiles();
